@@ -1,0 +1,25 @@
+{
+    "name": "vuchl/pdf-stamper",
+    "type": "library",
+    "description": "A stamping tool for PDFs whichs allows stamping Images, QR-Codes, Barcodes",
+    "keywords": ["pdf","stamp","watermark"],
+    "homepage": "https://github.com/vuchl/pdf-stamper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Vogel"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "setasign/fpdf": "1.7",
+        "setasign/fpdi":"1.5.4"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4" : {
+            "Vuchl\\PdfStamper\\": "src/"
+        }
+    }
+}
